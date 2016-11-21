@@ -12,17 +12,18 @@
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight:  bold;
 }
-.navbar-default {
-  padding-top: 20px;
-    background-color: transparent;
+.navbar-default
+{
+    padding-top: 15px;
+    background-color: #171515;
     border-color: transparent;
+    height: 80px;
 }
 section {
     text-align: center;
     background-image: url(/voile.jpg);
-    height: 800px;
-
-     background-size: cover;
+    height: 700px;
+    background-size: cover;
 }
 aside
 {
