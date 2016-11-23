@@ -38,7 +38,8 @@ aside
 /*page apropos*/
 h1.title_mission
 {
-  margin-top:150px;
+  margin-top:200px;
+  margin-bottom: 80px;
   color: red;
 }
 h1.title_team
@@ -50,7 +51,7 @@ h1.title_team
 .content_about
 {
   background: #f1f1f1;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .mission
 {
@@ -61,6 +62,11 @@ h1.title_team
     font-size: 28px;
     line-height: 38px;
     text-align: left;
+}
+.content_team
+{
+  background: #f1f1f1;
+  padding-bottom: 60px;
 }
 .col-lg-6 {
     margin-bottom: 20px;
