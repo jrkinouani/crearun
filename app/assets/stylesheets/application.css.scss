@@ -1,13 +1,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
-    color: white;
+    color: red;
     font-size: 2em;
     font-weight:  bold;
 }
 .navbar-default .navbar-nav > li > a
 {
-    color: white;
+    color: red;
     font-size: 18px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight:  bold;
@@ -15,11 +15,16 @@
 .navbar-default
 {
     padding-top: 15px;
-    background-color: #171515;
+    background-color: white;
     border-color: transparent;
     height: 80px;
 }
-section {
+ul.nav.navbar-nav.navbar-right
+{
+  background: white;
+}
+section
+{
     text-align: center;
     background-image: url(/voile.jpg);
     height: 650px;
@@ -81,7 +86,7 @@ h1.title_team
   background: black;
 }
 /*page atelier*/
-.img_atelier
+img.img_atelier
 {
   width: 100%;
 }
