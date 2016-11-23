@@ -22,8 +22,12 @@
 section {
     text-align: center;
     background-image: url(/voile.jpg);
-    height: 700px;
+    height: 650px;
     background-size: cover;
+}
+h1.baseline
+{
+  margin-top: 300px;
 }
 aside
 {
@@ -46,7 +50,7 @@ h1.title_team
 .content_about
 {
   background: #f1f1f1;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 .mission
 {
@@ -69,6 +73,32 @@ h1.title_team
 .navbar-nav
 {
   background: black;
+}
+/*page atelier*/
+.img_atelier
+{
+  width: 100%;
+}
+h3.title_atelier
+{
+  margin-bottom: 50px;
+
+}
+.list-group-item.active.button
+{
+    z-index: 2;
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+.atelier
+{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+footer.text-center
+{
+  margin-bottom: 20px;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
