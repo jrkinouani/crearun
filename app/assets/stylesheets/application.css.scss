@@ -26,13 +26,24 @@ ul.nav.navbar-nav.navbar-right
 section
 {
     text-align: center;
-    background-image: url(/voile.jpg);
+    background-image: url(/gif_mbot1.gif);
     height: 650px;
     background-size: cover;
+    background-repeat:no-repeat;
+    color: white;
 }
+@media (min-width: 50em) {
+  section {
+    background-image: url(/enfant_robot.jpg);
+      color: black;
+  }
+}
+
 h1.baseline
 {
   margin-top: 300px;
+  font-weight: bold;
+  font-size: 50px;
 }
 aside
 {
