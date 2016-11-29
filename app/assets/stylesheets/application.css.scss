@@ -10,7 +10,7 @@
     color: red;
     font-size: 18px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight:  bold;
+  
 }
 .navbar-default
 {
@@ -37,6 +37,24 @@ section
     background-image: url(/enfant_robot.jpg);
       color: black;
   }
+}
+.btn.btn-danger
+{
+  height: 50px;
+  background-color: white;
+  color: red;
+  margin-left: 15px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.btn.btn-danger.diff
+{
+  height: 50px;
+  background-color: red;
+  color: white;
+  margin-left: 15px;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 h1.baseline

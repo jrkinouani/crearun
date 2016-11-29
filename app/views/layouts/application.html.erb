@@ -38,6 +38,15 @@
                    <li class="page-scroll">
                        <%= link_to "Nos ateliers" , atelier_path, :class => "#" %>
                    </li>
+                   <li>
+                     <%= button_to "Devenir membre", atelier_path, :class => "btn btn-danger",:method => :get %>
+                   </li>
+                   <li>
+                      <%= button_to "Devenir intervenant", atelier_path, :class => "btn btn-danger diff",:method => :get %>
+                   </li>
+
+
+
                    <!--<li class="page-scroll">
                        <%= link_to "Statuts" , statuts_path, :class => "#" %>
                    </li>-->
