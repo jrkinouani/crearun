@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   resources :membres
+  get "/membres/new" => 'membres#new'
   root "static_pages#home"
 
   get  "/apropos" => 'static_pages#apropos'
