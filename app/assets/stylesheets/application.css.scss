@@ -145,6 +145,10 @@ footer.text-center
    margin-bottom: 20px;
 }
 /* form membre*/
+.form-signin
+{
+  margin-top: 20px;
+}
 .form-control
 {
     display: block;
@@ -160,6 +164,58 @@ footer.text-center
     border: 1px solid #ccc;
     border-radius: 4px;
   }
+.welcome
+{
+  margin-top:150px;
+  margin-bottom: 50px;
+  color: red;
+}
+h3.title_membre
+{
+  margin-bottom: 20px;
+}
+
+/*msg error*/
+.field_with_errors {
+  margin-top: 10px;
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.field_with_errors label {
+  color: #fff;
+}
+
+#error_explanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

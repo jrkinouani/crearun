@@ -11,6 +11,6 @@ class MembresController < ApplicationController
   end
 
   def membre_params
-    params.require(:membre).permit(:firstname, :lastname, :age, :city)
+    params.require(:membre).permit(:firstname, :lastname, :age, :city, :email)
   end
 end
