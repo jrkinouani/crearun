@@ -39,8 +39,7 @@
                        <%= link_to "Nos ateliers" , atelier_path, :class => "#" %>
                    </li>
                    <li>
-                     <a href="membres/new.html" class="btn btn-danger">Devenir membre</a>
-
+                     <%= button_to "Devenir membre", new_membre_path, :class => "btn btn-danger", :method => :get %>
                    </li>
                    <li>
                       <%= button_to "Devenir intervenant", atelier_path, :class => "btn btn-danger diff",:method => :get %>
