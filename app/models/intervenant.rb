@@ -1,0 +1,2 @@
+class Intervenant < ApplicationRecord
+end

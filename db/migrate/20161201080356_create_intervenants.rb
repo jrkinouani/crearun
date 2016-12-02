@@ -1,6 +1,6 @@
-class CreateCoaches < ActiveRecord::Migration[5.0]
+class CreateIntervenants < ActiveRecord::Migration[5.0]
   def change
-    create_table :coaches do |t|
+    create_table :intervenants do |t|
       t.string :firstname
       t.string :lastname
       t.string :city
