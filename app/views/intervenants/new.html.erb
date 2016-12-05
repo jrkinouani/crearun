@@ -3,15 +3,20 @@
     <div class="row">
       <div class="col-md-4 col-md-offset-4">
       <div class="text-center"><h1 class="welcome">Bienvenue à vous !</h1> </div>
-          <div class="text-center"><h3 class="title_membre">Devenez membre</h3></div>
+          <div class="text-center"><h3 class="title_membre">Devenez Intervenant pour<br> des ateliers loisirs et créatifs</h3></div>
 
 
       	<%= form_for (@intervenant), :class =>" form-signin" do |f| %>
          <%= render "shared/error_messages", :target => @intervenant %>
 
 
-         <%= f.text_field :firstname, class:"form-control", :placeholder => "Votre prénom" %>
-         
+         <%= f.text_field :firstname, class: "form-control", :placeholder => "Votre prénom" %>
+         <%= f.text_field :lastname, class: "form-control", :placeholder => "Votre nom" %>
+         <%= f.text_field :city, class: "form-control", :placeholder => "Dans quel ville résidez-vous ?"%>
+         <%= f.text_area :competence, class: "form-control", :placeholder => "Quels sont vos compétences ?"%>
+         <%= f.text_area :interest, class: "form-control", :placeholder => "Quels sont vos centres d'intérêts ?"%>
+         <%= f.text_field :phone, class: "form-control", :placeholder => "Quel est votre numéro de téléphone ?"%>
+         <%= f.email_field :email, class:"form-control", :placeholder => "Votre email"%>
          <p>
              <input type="checkbox" value="remember-me">
            Veuillez lire <%= link_to "les statuts" , statuts_path, :class => "#" %>

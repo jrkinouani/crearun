@@ -4,7 +4,7 @@ class IntervenantsController < ApplicationController
   end
 
   def create
-    @intervenant = Intervenant.new(membre_params)
+    @intervenant = Intervenant.new(intervenant_params)
     if @intervenant.save
      redirect_to root_path
     end
