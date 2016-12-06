@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   resources :intervenants
   resources :membres
-  
+
   root "static_pages#home"
 
   get  "/apropos" => 'static_pages#apropos'

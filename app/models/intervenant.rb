@@ -1,2 +1,3 @@
 class Intervenant < ApplicationRecord
+  
 end
