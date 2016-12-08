@@ -174,7 +174,6 @@ DEPENDENCIES
   bootstrap-sass (= 3.3.6)
   byebug
   coffee-rails (~> 4.2)
-  devise
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
