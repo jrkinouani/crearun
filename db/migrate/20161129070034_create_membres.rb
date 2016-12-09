@@ -15,7 +15,7 @@ class CreateMembres < ActiveRecord::Migration[5.0]
 
         create_table :membres do |t|
         t.string :name
-        #...
+
 
         t.timestamps
      end

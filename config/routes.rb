@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  devise_for :intervenants
+  devise_for :membres
   resources :intervenants
   resources :membres
 
